@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Game
+{
+    public partial class Labyrinth : Form
+    {
+        Point StartLocation;
+        public Labyrinth()
+        {
+            InitializeComponent();
+            InitializeGame();
+        }
+
+        private void InitializeGame()
+        {
+            StartLocation = panelInner.Location;
+            Cursor.Position = PointToScreen(StartLocation);
+        }
+        private void LabyWall_MouseEnter(object sender, EventArgs e)
+        {
+            InitializeGame();
+        }
+    }
+}
