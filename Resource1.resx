@@ -121,11 +121,23 @@
   <data name="buttonfon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\buttonfon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Component_1__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 1 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Component_1__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 1 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Component_1__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 1 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Component_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Component_4__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 4 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Component_4__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 4 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Component_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

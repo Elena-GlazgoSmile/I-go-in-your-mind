@@ -85,7 +85,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.MaximumSize = new System.Drawing.Size(1339, 886);
+            this.MaximumSize = new System.Drawing.Size(1920, 1080);
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";

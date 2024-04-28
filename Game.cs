@@ -20,6 +20,8 @@ namespace Game
         private int currFrame = 0;
         private int currAnimation = -1;
         private bool IsPressedAnyKey = false;
+        public bool NormalRoom = true;
+        public bool Eye = true;
         public Game()
         {
             InitializeComponent();
@@ -111,7 +113,8 @@ namespace Game
 
         private void update(object sender, EventArgs e)
         {
-            
+            if (Labyrinth.FirstWin)
+                pictureBox3.Hide();
             if (IsPressedAnyKey)
             {
                 PlayAnimation();
@@ -154,7 +157,28 @@ namespace Game
         {
             
         }
-        
 
+        private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (NormalRoom && Eye)
+            {
+                NormalRoom = false;
+                Eye = false;
+                BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 4 (2).png");
+                pictureBox2.BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 1 (10).png");
+            }
+            else
+            {
+                NormalRoom = true;
+                Eye = true;
+                BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 4 (1).png");
+                pictureBox2.BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 1 (9).png");
+            }
+        }
+
+        private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
+        {
+            pictureBox3.Hide();
+        }
     }
 }

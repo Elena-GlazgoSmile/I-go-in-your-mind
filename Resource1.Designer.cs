@@ -123,6 +123,36 @@ namespace Game {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Component_1__10_ {
+            get {
+                object obj = ResourceManager.GetObject("Component_1__10_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Component_1__8_ {
+            get {
+                object obj = ResourceManager.GetObject("Component_1__8_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Component_1__9_ {
+            get {
+                object obj = ResourceManager.GetObject("Component_1__9_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Component_3 {
             get {
                 object obj = ResourceManager.GetObject("Component_3", resourceCulture);
@@ -136,6 +166,16 @@ namespace Game {
         internal static System.Drawing.Bitmap Component_4__1_ {
             get {
                 object obj = ResourceManager.GetObject("Component_4__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Component_4__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Component_4__2_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

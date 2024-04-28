@@ -12,6 +12,8 @@ namespace Game
 {
     public partial class NextLoca : Form
     {
+        public bool NormalRoom = true;
+        public bool Eye = true;
         Image player;
         private int currFrame = 0;
         private int currAnimation = -1;
@@ -54,6 +56,13 @@ namespace Game
                 case "A":
                     currAnimation = 1;
                     if (pictureBox1.Location.X <= 90) break;
+                    if (pictureBox1.Location.Y <= 310 && pictureBox1.Location.X <= 410)
+                    {
+                        var game = new Game();
+                        game.Show();
+                        Close();
+                        break;
+                    }
                     else
                     {
                         pictureBox1.Location = new Point(pictureBox1.Location.X - 5, pictureBox1.Location.Y);
@@ -61,7 +70,14 @@ namespace Game
                     }
                 case "W":
                     currAnimation = 0;
-                    if (pictureBox1.Location.Y <= 400) break;
+                    if (pictureBox1.Location.Y <= 300) break;
+                    if (pictureBox1.Location.Y <= 310 && pictureBox1.Location.X <= 410)
+                    {
+                        var game = new Game();
+                        game.Show();
+                        Close();
+                        break;
+                    }
                     
                     else
                     {
@@ -136,6 +152,24 @@ namespace Game
         private void NextLoca_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (NormalRoom && Eye)
+            {
+                NormalRoom = false;
+                Eye = false;
+                BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 4 (2).png");
+                pictureBox2.BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 1 (10).png");
+            }
+            else
+            {
+                NormalRoom = true;
+                Eye = true;
+                BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 6.png");
+                pictureBox2.BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 1 (9).png");
+            }
         }
     }
 }

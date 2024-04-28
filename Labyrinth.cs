@@ -13,7 +13,8 @@ namespace Game
     public partial class Labyrinth : Form
     {
         Point StartLocation;
-        int CountDown = 0;
+        int CountDown;
+        public static bool FirstWin = false;
         public Labyrinth()
         {
             InitializeComponent();
@@ -52,7 +53,7 @@ namespace Game
             }
             Timer.BackColor = Color.White;
             Timer.Text = CountDown.ToString();
-            CountDown--;
+            CountDown = 0;
         }
 
         private void pictureBox1_MouseEnter(object sender, EventArgs e)
@@ -62,8 +63,9 @@ namespace Game
             DialogResult userChoice = MessageBox.Show("Yeeees, it's me...\n Do you still remember?", "AXAXAXXAXAXAXAXXA", MessageBoxButtons.YesNo);
             if (userChoice == DialogResult.Yes)
             {
+                FirstWin = true;
                 Game game = new Game();
-                game.Show();
+                game.Show();               
                 this.Close();
             }
             else
