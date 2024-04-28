@@ -124,11 +124,20 @@
   <data name="Component_1__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 1 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Component_1__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 1 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Component_1__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 1 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Component_1__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 1 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Component_1__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 1 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Component_2__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 2 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Component_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -141,6 +150,9 @@
   </data>
   <data name="Component_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Component_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="desk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 1 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -156,9 +168,6 @@
   </data>
   <data name="Go" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="label" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\label.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="laby" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\laby.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

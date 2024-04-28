@@ -86,8 +86,14 @@ namespace Game
                     }
                 case "S":
                     currAnimation = 0;
-                    if (pictureBox1.Location.Y >= 600) break;
-                    
+                    if (pictureBox1.Location.Y >= 600) 
+                    { 
+                        var final = new FinalFight();
+                        final.Show();
+                        Close();
+                        break; 
+                    }
+
                     else
                     {
                         pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y + 5);
@@ -106,11 +112,12 @@ namespace Game
 
         private void update(object sender, EventArgs e)
         {
-
+            if (Labyrinth.FirstWin)
+                pictureBox4.Visible = true;
             for (var i = 0; i < 3; i++)
             {
                 currFrame++;
-
+                
 
                 if (IsPressedAnyKey)
                 {

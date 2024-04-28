@@ -53,7 +53,7 @@ namespace Game
             }
             Timer.BackColor = Color.White;
             Timer.Text = CountDown.ToString();
-            CountDown = 0;
+            CountDown--;
         }
 
         private void pictureBox1_MouseEnter(object sender, EventArgs e)

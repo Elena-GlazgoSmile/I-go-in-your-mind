@@ -50,6 +50,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FinalFight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinalFight.Designer.cs">
+      <DependentUpon>FinalFight.cs</DependentUpon>
+    </Compile>
     <Compile Include="Game.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     <Compile Include="UserControl1.xaml.cs">
       <DependentUpon>UserControl1.xaml</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FinalFight.resx">
+      <DependentUpon>FinalFight.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Game.resx">
       <DependentUpon>Game.cs</DependentUpon>
     </EmbeddedResource>
@@ -253,6 +262,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Component 4 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Component 1 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Component 1 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Component 2 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Component 8.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

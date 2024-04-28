@@ -114,7 +114,10 @@ namespace Game
         private void update(object sender, EventArgs e)
         {
             if (Labyrinth.FirstWin)
-                pictureBox3.Hide();
+            {
+                pictureBox6.Hide();
+                pictureBox4.Visible = true;
+            }
             if (IsPressedAnyKey)
             {
                 PlayAnimation();
@@ -179,6 +182,11 @@ namespace Game
         private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
         {
             pictureBox3.Hide();
+        }
+
+        private void pictureBox6_MouseClick(object sender, MouseEventArgs e)
+        {
+            pictureBox6.Hide();
         }
     }
 }
