@@ -40,11 +40,14 @@ namespace Game
                 case "D":
                     currAnimation = 0;
                     if (pictureBox1.Location.X >= 1300) break;
+                    if (pictureBox1.Location.X >= 700) 
+                    {
+                        pictureBox6.Visible = false;
+                    }
                     if (pictureBox1.Location.X > 970)
                     {
                         ThirdPlace place = new ThirdPlace();
                         place.Show();
-                        Hide();
                         break;
                     }
                     else
@@ -55,7 +58,7 @@ namespace Game
 
                 case "A":
                     currAnimation = 1;
-                    if (pictureBox1.Location.X <= 90) break;
+                    if (pictureBox1.Location.X <= 330) break;
                     if (pictureBox1.Location.Y <= 310 && pictureBox1.Location.X <= 410)
                     {
                         var game = new Game();
@@ -86,7 +89,7 @@ namespace Game
                     }
                 case "S":
                     currAnimation = 0;
-                    if (pictureBox1.Location.Y >= 600) 
+                    if (pictureBox1.Location.Y >= 540) 
                     { 
                         var final = new FinalFight();
                         final.Show();
@@ -113,7 +116,13 @@ namespace Game
         private void update(object sender, EventArgs e)
         {
             if (Labyrinth.FirstWin)
+            {
                 pictureBox4.Visible = true;
+            }
+            if (ThirdPlace.PlatformWin)
+            {
+                pictureBox5.Visible = true;        
+            }
             for (var i = 0; i < 3; i++)
             {
                 currFrame++;
@@ -167,13 +176,15 @@ namespace Game
             {
                 NormalRoom = false;
                 Eye = false;
-                BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 4 (2).png");
+                pictureBox6.Visible = true;
+                BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 6 (4).png");
                 pictureBox2.BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 1 (10).png");
             }
             else
             {
                 NormalRoom = true;
                 Eye = true;
+                pictureBox6.Visible = false;
                 BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 6.png");
                 pictureBox2.BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 1 (9).png");
             }

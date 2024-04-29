@@ -153,6 +153,26 @@ namespace Game {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Component_1__13_ {
+            get {
+                object obj = ResourceManager.GetObject("Component_1__13_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Component_1__14_ {
+            get {
+                object obj = ResourceManager.GetObject("Component_1__14_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Component_1__8_ {
             get {
                 object obj = ResourceManager.GetObject("Component_1__8_", resourceCulture);
@@ -183,9 +203,29 @@ namespace Game {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Component_2__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Component_2__3_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Component_3 {
             get {
                 object obj = ResourceManager.GetObject("Component_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Component_3__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Component_3__1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,6 +263,26 @@ namespace Game {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Component_6__4_ {
+            get {
+                object obj = ResourceManager.GetObject("Component_6__4_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Component_6__5_ {
+            get {
+                object obj = ResourceManager.GetObject("Component_6__5_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Component_8 {
             get {
                 object obj = ResourceManager.GetObject("Component_8", resourceCulture);
@@ -253,6 +313,16 @@ namespace Game {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Door1 {
+            get {
+                object obj = ResourceManager.GetObject("Door1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap finish {
             get {
                 object obj = ResourceManager.GetObject("finish", resourceCulture);
@@ -276,6 +346,16 @@ namespace Game {
         internal static System.Drawing.Bitmap Go {
             get {
                 object obj = ResourceManager.GetObject("Go", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap label {
+            get {
+                object obj = ResourceManager.GetObject("label", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,6 +416,16 @@ namespace Game {
         internal static System.Drawing.Bitmap NinGo {
             get {
                 object obj = ResourceManager.GetObject("NinGo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap platformer {
+            get {
+                object obj = ResourceManager.GetObject("platformer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

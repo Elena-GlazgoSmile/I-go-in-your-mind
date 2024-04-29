@@ -130,6 +130,12 @@
   <data name="Component_1__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 1 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Component_1__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 1 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Component_1__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 1 (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Component_1__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 1 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,8 +145,14 @@
   <data name="Component_2__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 2 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Component_2__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 2 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Component_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Component_3__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 3 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Component_4__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 4 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,6 +163,12 @@
   <data name="Component_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Component_6__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 6 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Component_6__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 6 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Component_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -160,6 +178,9 @@
   <data name="Door" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 1 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Door1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 1 (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="finish" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 2 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -168,6 +189,9 @@
   </data>
   <data name="Go" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="label" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\label.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="laby" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\laby.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -186,6 +210,9 @@
   </data>
   <data name="NinGo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="platformer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\platformer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="room" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\room.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

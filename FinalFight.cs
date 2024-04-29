@@ -48,14 +48,7 @@ namespace Game
 
                 case "A":
                     currAnimation = 1;
-                    if (pictureBox1.Location.X <= 90) break;
-                    if (pictureBox1.Location.Y <= 310 && pictureBox1.Location.X <= 410)
-                    {
-                        var game = new Game();
-                        game.Show();
-                        Close();
-                        break;
-                    }
+                    if (pictureBox1.Location.X <= 330) break;
                     else
                     {
                         pictureBox1.Location = new Point(pictureBox1.Location.X - 5, pictureBox1.Location.Y);
@@ -63,15 +56,7 @@ namespace Game
                     }
                 case "W":
                     currAnimation = 0;
-                    if (pictureBox1.Location.Y <= 300) break;
-                    if (pictureBox1.Location.Y <= 310 && pictureBox1.Location.X <= 410)
-                    {
-                        var game = new Game();
-                        game.Show();
-                        Close();
-                        break;
-                    }
-
+                    if (pictureBox1.Location.Y <= 350) break;
                     else
                     {
                         pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y - 5);
@@ -79,10 +64,10 @@ namespace Game
                     }
                 case "S":
                     currAnimation = 0;
-                    if (pictureBox1.Location.Y >= 600)
+                    if (pictureBox1.Location.Y >= 540)
                     {
-                        var final = new FinalFight();
-                        final.Show();
+                        var loca = new NextLoca();
+                        loca.Show();
                         Close();
                         break;
                     }
@@ -155,7 +140,6 @@ namespace Game
             {
                 NormalRoom = false;
                 Eye = false;
-                BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 4 (2).png");
                 pictureBox2.BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 1 (10).png");
             }
             else

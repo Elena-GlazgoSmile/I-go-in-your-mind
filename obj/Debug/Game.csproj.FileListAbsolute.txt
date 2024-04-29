@@ -21,3 +21,4 @@ C:\Users\712\source\repos\Game\obj\Debug\Game.ThirdPlace.resources
 C:\Users\712\source\repos\Game\obj\Debug\Game.Labyrinth.resources
 C:\Users\712\source\repos\Game\obj\Debug\Game.Mirror.resources
 C:\Users\712\source\repos\Game\obj\Debug\Game.FinalFight.resources
+C:\Users\712\source\repos\Game\obj\Debug\Game.GameObj.Heart.resources

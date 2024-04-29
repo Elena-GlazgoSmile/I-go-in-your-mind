@@ -10,7 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Forms;
 
 
-namespace Game
+namespace Game 
 {
     
     public partial class Game : Form
@@ -60,7 +60,7 @@ namespace Game
 
                 case "A":
                     currAnimation = 1;
-                    if (pictureBox1.Location.X <= 600) break;
+                    if (pictureBox1.Location.X <= 330) break;
                     if (pictureBox1.Location.Y <= 320 && (pictureBox1.Location.X <= 706 && pictureBox1.Location.X >= 650))
                     {
                         Mirror mirror = new Mirror();
@@ -188,5 +188,7 @@ namespace Game
         {
             pictureBox6.Hide();
         }
+
+        
     }
 }

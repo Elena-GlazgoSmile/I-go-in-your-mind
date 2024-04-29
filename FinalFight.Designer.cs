@@ -68,7 +68,7 @@
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = global::Game.Resource1.Component_1__11_;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox3.Location = new System.Drawing.Point(94, 98);
+            this.pictureBox3.Location = new System.Drawing.Point(194, 98);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(377, 200);
             this.pictureBox3.TabIndex = 2;
@@ -79,7 +79,7 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = global::Game.Resource1.Component_1__12_;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox4.Location = new System.Drawing.Point(122, 114);
+            this.pictureBox4.Location = new System.Drawing.Point(222, 114);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 89);
             this.pictureBox4.TabIndex = 3;
@@ -91,7 +91,7 @@
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImage = global::Game.Resource1.Component_2__2_;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox5.Location = new System.Drawing.Point(261, 115);
+            this.pictureBox5.Location = new System.Drawing.Point(361, 115);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(101, 88);
             this.pictureBox5.TabIndex = 4;
