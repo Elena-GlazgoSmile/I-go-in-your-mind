@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panelOuter = new System.Windows.Forms.Panel();
-            this.GameTimer = new System.Windows.Forms.Timer(this.components);
             this.panelInner = new System.Windows.Forms.Panel();
             this.Timer = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -93,6 +92,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.GameTimer = new System.Windows.Forms.Timer(this.components);
             this.panelOuter.SuspendLayout();
             this.panelInner.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -108,11 +108,6 @@
             this.panelOuter.Name = "panelOuter";
             this.panelOuter.Size = new System.Drawing.Size(800, 500);
             this.panelOuter.TabIndex = 0;
-            // 
-            // GameTimer
-            // 
-            this.GameTimer.Interval = 1000;
-            this.GameTimer.Tick += new System.EventHandler(this.GameTimer_Tick);
             // 
             // panelInner
             // 
@@ -179,6 +174,7 @@
             this.panelInner.Controls.Add(this.label3);
             this.panelInner.Controls.Add(this.label2);
             this.panelInner.Controls.Add(this.label1);
+            this.panelInner.Cursor = System.Windows.Forms.Cursors.No;
             this.panelInner.Location = new System.Drawing.Point(10, 12);
             this.panelInner.Name = "panelInner";
             this.panelInner.Size = new System.Drawing.Size(778, 476);
@@ -198,6 +194,7 @@
             // 
             this.pictureBox2.BackgroundImage = global::Game.Resource1.start;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Default;
             this.pictureBox2.Location = new System.Drawing.Point(0, -2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(67, 71);
@@ -753,6 +750,11 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
             this.label1.MouseEnter += new System.EventHandler(this.LabyWall_MouseEnter);
+            // 
+            // GameTimer
+            // 
+            this.GameTimer.Interval = 1000;
+            this.GameTimer.Tick += new System.EventHandler(this.GameTimer_Tick);
             // 
             // Labyrinth
             // 

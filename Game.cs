@@ -118,6 +118,10 @@ namespace Game
                 pictureBox6.Hide();
                 pictureBox4.Visible = true;
             }
+            if (ThirdPlace.PlatformWin)
+            {
+                pictureBox5.Visible = true;
+            }
             if (IsPressedAnyKey)
             {
                 PlayAnimation();

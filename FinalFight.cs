@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +13,7 @@ namespace Game
 {
     public partial class FinalFight : Form
     {
+        public int mouseClickCounter = 0;
         public bool NormalRoom = true;
         public bool Eye = true;
         Image player;
@@ -91,7 +93,13 @@ namespace Game
         private void update(object sender, EventArgs e)
         {
             if (Labyrinth.FirstWin)
+            {
                 pictureBox4.Visible = true;
+            }
+            if (ThirdPlace.PlatformWin)
+            {
+                pictureBox5.Visible = true;
+            }
             for (var i = 0; i < 3; i++)
             {
                 currFrame++;
@@ -141,6 +149,8 @@ namespace Game
                 NormalRoom = false;
                 Eye = false;
                 pictureBox2.BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 1 (10).png");
+                MessageBox.Show("If you want to talk, click on the white dialog icon",
+                    "", MessageBoxButtons.OK);
             }
             else
             {
@@ -148,6 +158,51 @@ namespace Game
                 Eye = true;
                 BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 8.png");
                 pictureBox2.BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 1 (9).png");
+            }
+        }
+
+        private void DialogGO(object sender, MouseEventArgs e)
+        {
+            mouseClickCounter++;
+            if (mouseClickCounter == 1)
+            {
+                label1.Text = "I hate you... you know!";
+                label2.Text = "...";
+            }
+            if (mouseClickCounter == 2)
+            {
+                label1.Text = "I wouldn't give your freedom. You're here with me forever";
+                label2.Text = "It's not your fault!";
+            }
+            if (mouseClickCounter == 3)
+            {
+                label1.Text = "Stop talking, please! You've forgotten me!";
+                label2.Text = "I want to fix everything, Nina!";
+            }
+            if (mouseClickCounter == 4)
+            {
+                label1.Text = "Don't say my name!";
+                label2.Text = "AXAXAXAXAXAX, it's my name too";
+            }
+            if (mouseClickCounter == 5)
+            {
+                label1.Text = "Shut just up! You've lost your memory!";
+                label2.Text = "No, I remember, that you are beautifull girl forever";
+            }
+            if (mouseClickCounter == 6)
+            {
+                label1.Text = "I'm not hearing you! I'm not hearing you!";
+                label2.Text = "And your birthday... is on 27 of March. Today is 27 March";                            
+            }
+            if (mouseClickCounter == 7)
+            {
+                label1.Text = "You came here to make fun of me?";
+                label2.Text = "I just wanted to say I'm sorry";
+            }
+            if (mouseClickCounter == 8)
+            {
+                label1.Text = "No... stop... please...";
+                label2.Text = "...";
             }
         }
     }

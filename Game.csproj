@@ -306,5 +306,17 @@
   <ItemGroup>
     <None Include="Resources\Component 6 %285%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Component 1 %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Component 1 %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YandexPackLoader %282%29.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glados - Happy Birthda_%28Muz-Monster.ru%29.mp3" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

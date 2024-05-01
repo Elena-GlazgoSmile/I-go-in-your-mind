@@ -173,6 +173,26 @@ namespace Game {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Component_1__18_ {
+            get {
+                object obj = ResourceManager.GetObject("Component_1__18_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Component_1__19_ {
+            get {
+                object obj = ResourceManager.GetObject("Component_1__19_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Component_1__8_ {
             get {
                 object obj = ResourceManager.GetObject("Component_1__8_", resourceCulture);
@@ -337,6 +357,16 @@ namespace Game {
             get {
                 object obj = ResourceManager.GetObject("fon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] Glados___Happy_Birthda__Muz_Monster_ru_ {
+            get {
+                object obj = ResourceManager.GetObject("Glados___Happy_Birthda__Muz_Monster_ru_", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
