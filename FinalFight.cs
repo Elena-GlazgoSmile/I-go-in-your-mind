@@ -20,6 +20,8 @@ namespace Game
         private int currFrame = 0;
         private int currAnimation = -1;
         private bool IsPressedAnyKey = false;
+        public bool FinalWin = false;
+        public bool FinalDie = false;
         public FinalFight()
         {
             InitializeComponent();
@@ -201,8 +203,47 @@ namespace Game
             }
             if (mouseClickCounter == 8)
             {
-                label1.Text = "No... stop... please...";
-                label2.Text = "...";
+                label1.Text = "Is that all you wanted?";
+                if (pictureBox4.Visible && pictureBox5.Visible)
+                {
+                    FinalWin = true;
+                    label2.Text = "I'm going to re-draw the drawing that I tore up";
+                }
+                else
+                {
+                    FinalDie = true;
+                    label2.Text = "That's all...";
+                }
+            }
+            if (mouseClickCounter == 9)
+            {
+                if (FinalDie)
+                {
+                    label1.Text = "Well... get ready for eternal suffering with me";
+                    
+                }
+                if(FinalWin)
+                {
+                    label1.Text = "What... do you still remember?";
+                    label2.Text = "Yeeeh... I remember... I am you... you are me... I lost memory, but I find you... so I win";
+                }
+            }
+            if (mouseClickCounter == 10)
+            {
+                if (FinalDie)
+                {
+                    this.Close();
+                }
+                if(FinalWin)
+                {
+                    label1.Text = "What is it? I found eternal peace... and now I can set your free. Thank you, Nina!";
+                    BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 6 (5).png");
+                    label2.Text = "Goodbye... I will never forget about you... me... again";
+                }
+            }
+            if(mouseClickCounter == 11)
+            {
+                this.Close();
             }
         }
     }
