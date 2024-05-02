@@ -25,10 +25,12 @@ namespace Game
         int enemy1Speed = 5;
         int enemy2Speed = 3;
         public static bool PlatformWin = false;
-        private int currAnimation = -1;
+        
         public ThirdPlace()
         {
             InitializeComponent();
+            MessageBox.Show("Collect 8 hearts and find the door to escape.\nDon't touch Nina!",
+                    "", MessageBoxButtons.OK);
             timer1.Interval = 200;
             timer1.Tick += new EventHandler(Update);
             timer1.Start();

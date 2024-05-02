@@ -19,7 +19,7 @@ namespace Game
         public Labyrinth()
         {
             InitializeComponent();
-            InitializeGame();
+            InitializeGame();           
             CountDown = 30;
         }
 
@@ -28,7 +28,7 @@ namespace Game
             GameTimer.Start();
             StartLocation = panelInner.Location;
             Cursor.Position = PointToScreen(StartLocation);
-            
+
         }
         private void LabyWall_MouseEnter(object sender, EventArgs e)
         {

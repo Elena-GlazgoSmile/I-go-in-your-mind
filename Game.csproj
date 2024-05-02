@@ -318,5 +318,14 @@
   <ItemGroup>
     <None Include="Resources\Glados - Happy Birthda_%28Muz-Monster.ru%29.mp3" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Component 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Component 8 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ифв утв.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

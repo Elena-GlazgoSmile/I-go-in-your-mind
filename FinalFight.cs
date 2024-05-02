@@ -13,6 +13,7 @@ namespace Game
 {
     public partial class FinalFight : Form
     {
+        public int mouseClickFinal = 0;
         public int mouseClickCounter = 0;
         public bool NormalRoom = true;
         public bool Eye = true;
@@ -151,7 +152,7 @@ namespace Game
                 NormalRoom = false;
                 Eye = false;
                 pictureBox2.BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 1 (10).png");
-                MessageBox.Show("If you want to talk, click on the white dialog icon",
+                MessageBox.Show("If you want to talk, click on the white dialog icon (click on the picture to close game)",
                     "", MessageBoxButtons.OK);
             }
             else
@@ -232,16 +233,36 @@ namespace Game
             {
                 if (FinalDie)
                 {
+                    pictureBox10.Visible = true;
+                    MessageBox.Show("Bad end",
+                   "Maybe one eternity later", MessageBoxButtons.OK);
                     this.Close();
                 }
                 if(FinalWin)
                 {
                     label1.Text = "What is it? I found eternal peace... and now I can set your free. Thank you, Nina!";
                     BackgroundImage = new Bitmap("C:\\Users\\712\\source\\repos\\Game\\Resources\\Component 6 (5).png");
+                    pictureBox1.Visible = false;
+                    pictureBox8.Visible = true;
                     label2.Text = "Goodbye... I will never forget about you... me... again";
                 }
             }
-            if(mouseClickCounter == 11)
+            if (mouseClickCounter == 11)
+            {
+                pictureBox9.Visible = true;
+                
+            }
+        }
+
+        private void FinalClick(object sender, MouseEventArgs e)
+        {
+            mouseClickFinal++;
+            if (mouseClickFinal == 1)
+            {
+                MessageBox.Show("Good end",
+                        "See you soon", MessageBoxButtons.OK);
+            }
+            if (mouseClickFinal == 2)
             {
                 this.Close();
             }

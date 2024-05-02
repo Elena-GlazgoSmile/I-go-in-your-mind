@@ -175,8 +175,14 @@
   <data name="Component_6__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 6 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Component_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Component_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Component_8__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Component 8 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="desk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Component 1 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -252,5 +258,8 @@
   </data>
   <data name="_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ифв_утв" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ифв утв.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

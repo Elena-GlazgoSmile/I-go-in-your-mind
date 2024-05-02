@@ -49,6 +49,8 @@ namespace Game
                     { 
                         Labyrinth laby = new Labyrinth();
                         laby.Show();
+                        MessageBox.Show("Find the way to Nina.\nBeware of the walls!",
+                        "", MessageBoxButtons.OK);
                         Hide();
                         break; 
                     }
